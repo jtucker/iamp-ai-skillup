@@ -1,0 +1,49 @@
+# AI Skill Project
+
+This project uses OpenAI's API and related agent libraries to build AI-powered applications. It includes Python dependencies for OpenAI, agent chat, and data processing.
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd ai-skill
+```
+
+### 2. Install dependencies
+It is recommended to use a virtual environment (e.g., Conda or venv).
+
+#### Using pip:
+```bash
+pip install -r requirements.txt
+```
+
+#### Using Conda:
+```bash
+conda create -n ai-skill python=3.10
+conda activate ai-skill
+pip install -r requirements.txt
+```
+
+### 3. Get an OpenAI API Key
+1. Go to [OpenAI API Keys](https://platform.openai.com/api-keys).
+2. Log in or sign up for an OpenAI account.
+3. Click "Create new secret key" and copy the generated key.
+
+### 4. Set your API key in the `.env` file
+Create a file named `.env` in the project root directory and add:
+```
+API_KEY=sk-...
+```
+Replace `sk-...` with your actual OpenAI API key.
+
+### 5. Test your setup
+You can use the provided `setup.ipynb` notebook to verify your API key and environment.
+
+## Usage
+- Run Jupyter notebooks or Python scripts to interact with OpenAI models and agents.
+- See `setup.ipynb` for example usage and API key validation.
+
+## Troubleshooting
+- If you encounter authentication errors, double-check your API key in the `.env` file.
+- Ensure all dependencies are installed and your environment is activated.

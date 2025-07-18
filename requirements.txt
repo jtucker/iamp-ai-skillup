@@ -1,0 +1,8 @@
+openai
+openai-agents
+tiktoken
+pandas
+autogen-agentchat
+autogen-ext[openai,azure,azure-openai]
+autogenstudio
+asyncio
