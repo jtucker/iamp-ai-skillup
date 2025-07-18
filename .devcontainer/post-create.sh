@@ -8,3 +8,7 @@ echo "✅ Installed Python requirements"
 echo "🔧 Installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
 echo "✅ Installed Ollama"
+
+echo "🐍 Running conda init..."
+conda activate research
+echo "✅ Conda initialized"

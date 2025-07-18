@@ -11,6 +11,11 @@
 		"ghcr.io/devcontainers/features/azure-cli": {},
 		"ghcr.io/devcontainers/features/github-cli": {}
 	},
+	"hostRequirements": {
+		"cpus": 8,
+		"memory": "32gb",
+		"storage": "64gb"
+	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
