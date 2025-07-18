@@ -2,6 +2,8 @@
 
 This project uses OpenAI's API and related agent libraries to build AI-powered applications. It includes Python dependencies for OpenAI, agent chat, and data processing.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/jtucker/iamp-ai-skillup)
+
 ## Devcontainer Setup Instructions
 This project is designed to work seamlessly in a VS Code devcontainer. The devcontainer provides:
 
