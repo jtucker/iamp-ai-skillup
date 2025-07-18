@@ -14,5 +14,5 @@ conda init
 echo "✅ Conda initialized"
 
 echo "🐍 Create research environment.."
-conda create -n research
+conda create -n research -y
 echo "✅ Environment created"
