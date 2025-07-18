@@ -20,10 +20,10 @@
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "bash .devcontainer/post-create.sh",
-	"postStartCommand": "nohup bash -c 'ollama serve &'",
+	"postStartCommand": "nohup bash -c 'ollama serve &'",	
 	"secrets": {
 		"API_KEY": {
-			"description": "The OpenAI API Key",
+			"description": "The OpenAI API Key, this can be used instead of the `.env` file but requires a change to the notebook.",
 			"documentationUrl": "https://platform.openai.com/api-keys"
 		}
 	},
