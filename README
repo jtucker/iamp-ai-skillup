@@ -2,47 +2,37 @@
 
 This project uses OpenAI's API and related agent libraries to build AI-powered applications. It includes Python dependencies for OpenAI, agent chat, and data processing.
 
-## Setup Instructions
+## Devcontainer Setup Instructions
+This project is designed to work seamlessly in a VS Code devcontainer. The devcontainer provides:
 
-### 1. Clone the repository
-```bash
-git clone <your-repo-url>
-cd ai-skill
-```
+- Conda
+- Jupyter Notebooks Extension
+- Ollama
 
-### 2. Install dependencies
-It is recommended to use a virtual environment (e.g., Conda or venv).
+### Prerequisites
+- Docker
+- VS Code with Dev Containers extension 
 
-#### Using pip:
-```bash
-pip install -r requirements.txt
-```
+### Getting Started
+1. Open the project folder where you cloned the repo to
+2. If  prompted, reopen in the devcontainer. Otherwise, use the command palette: Dev Containers: Reopen in Container.
+3. The environment will automatically set up all required tools and extensions.
+4. Add you `.env` file with OpenAI API Key as outlined below.
 
-#### Using Conda:
-```bash
-conda create -n ai-skill python=3.10
-conda activate ai-skill
-pip install -r requirements.txt
-```
-
-### 3. Get an OpenAI API Key
+### Get an OpenAI API Key
 1. Go to [OpenAI API Keys](https://platform.openai.com/api-keys).
 2. Log in or sign up for an OpenAI account.
 3. Click "Create new secret key" and copy the generated key.
 
-### 4. Set your API key in the `.env` file
+### Set your API key in the `.env` file
 Create a file named `.env` in the project root directory and add:
 ```
 API_KEY=sk-...
 ```
 Replace `sk-...` with your actual OpenAI API key.
 
-### 5. Test your setup
+### Test your setup
 You can use the provided `setup.ipynb` notebook to verify your API key and environment.
-
-## Usage
-- Run Jupyter notebooks or Python scripts to interact with OpenAI models and agents.
-- See `setup.ipynb` for example usage and API key validation.
 
 ## Troubleshooting
 - If you encounter authentication errors, double-check your API key in the `.env` file.
