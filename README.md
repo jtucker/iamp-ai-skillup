@@ -33,6 +33,27 @@ API_KEY=sk-...
 ```
 Replace `sk-...` with your actual OpenAI API key.
 
+### Set up Azure OpenAI in the Notebook
+
+If you want to use [Azure OpenAI](https://ai.azure.com/) instead of OpenAI, follow these steps:
+
+1. Update your `.env` file with the following variables:
+   ```
+   AZURE_OPENAI_ENDPOINT=https://<your-azure-openai-endpoint>
+   AZURE_OPENAI_API_KEY=<your-azure-openai-api-key>
+   ```
+   Replace `<your-azure-openai-endpoint>` and `<your-azure-openai-api-key>` with your actual Azure OpenAI endpoint and API key.
+
+2. Open the `setup.ipynb` notebook.
+
+3. Uncomment the section labeled `IF YOU WANT TO USE AZURE OPENAI`.
+
+4. Comment out the existing OpenAI code to avoid conflicts.
+
+5. Replace the placeholder values in the notebook with the corresponding values from your `.env` file.
+
+6. Run the notebook to test your Azure OpenAI setup.
+
 ### Test your setup
 You can use the provided `setup.ipynb` notebook to verify your API key and environment.
 
