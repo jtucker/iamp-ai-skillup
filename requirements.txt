@@ -6,3 +6,4 @@ autogen-agentchat
 autogen-ext[openai,azure,azure-openai]
 autogenstudio
 asyncio
+ipykernel
